@@ -2,7 +2,7 @@ const axios = require('axios');
 
 class MovieAPIClient {
   constructor() {
-    this.baseURL = 'https://movieapi.giftedtech.co.ke/api/v2';
+    this.baseURL = 'https://movieapi.gifted.co.ke/api/v2';
     this.apiKey = 'gifted_movieapi_378ry3dq7qdlqdgdqg8ordqg78qd0';
     
     this.client = axios.create({
